@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:GroupBox name="Score" class="ScoreStyle">
+        <ui:Label text="01." display-tooltip-when-elided="true" name="ScoreCountText" class="ScoreNumStyle" />
+        <ui:Label text="1024" display-tooltip-when-elided="true" name="ScoreText" class="ScoreTextStyle" />
+    </ui:GroupBox>
+</ui:UXML>

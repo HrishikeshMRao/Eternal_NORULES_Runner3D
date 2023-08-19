@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Styles/Home.uss?fileID=7433441132597879392&amp;guid=aa37a114e827c16408d4899a84054a9d&amp;type=3#Home" />
+    <ui:VisualElement style="width: 100%; height: 100%; left: 0; position: absolute; top: 0; background-color: rgba(0, 0, 0, 0.5);">
+        <ui:GroupBox style="position: absolute; left: 50%; top: 50%; transform-origin: left top; translate: -50% -50%; width: 35%; height: 65%; min-width: 125px; min-height: 125px; max-width: 350px; max-height: 450px; justify-content: space-around; align-items: center;">
+            <ui:Label text="Final Score : 732" display-tooltip-when-elided="true" name="FinalScoreText" style="align-items: center; font-size: 48px; -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-align: upper-center; margin-bottom: 0;" />
+            <ui:GroupBox style="width: 100%; height: 75%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; justify-content: flex-end; align-items: center;">
+                <ui:Button text="RETRY" display-tooltip-when-elided="true" name="RetryButton" class="Button" />
+                <ui:Button text="HOME" display-tooltip-when-elided="true" name="HomeButton" class="Button" style="padding-top: 1px; margin-top: 12px;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

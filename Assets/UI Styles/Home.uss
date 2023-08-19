@@ -1,0 +1,62 @@
+.Button {
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 30%;
+    -unity-font-style: bold;
+    font-size: 24px;
+    min-width: 100px;
+    background-color: rgba(38, 38, 38, 0.5);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.Button:hover {
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 30%;
+    -unity-font-style: bold;
+    font-size: 24px;
+    min-width: 100px;
+    background-color: rgba(164, 164, 164, 0.5);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.ScoreStyle {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ScoreNumStyle {
+    flex-grow: 0.25;
+    -unity-text-align: upper-center;
+    color: rgba(255, 255, 255, 255);
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.ScoreTextStyle {
+    flex-grow: 2;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 255);
+    -unity-text-align: upper-center;
+    font-size: 24px;
+    -unity-font-style: bold;
+}
