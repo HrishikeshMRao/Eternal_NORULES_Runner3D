@@ -90,7 +90,7 @@ public class TrackBuilder : MonoBehaviour
             previousGap = newGap;
         }
         newGap = new();
-        obstaclegap = (30f+largest * speed.forwardAcceleration * scaleFactor);
+        obstaclegap = (largest * speed.forwardAcceleration * scaleFactor);
         return (obstaclegap);
     }
 
