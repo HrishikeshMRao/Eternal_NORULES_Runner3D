@@ -423,6 +423,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whiteSpace:
   - {fileID: 8287405777274933929, guid: 9fb11bf5d8c1ed8428ae2b0293efb3d8, type: 3}
+  - {fileID: 6082620641234105247, guid: ab6120e5950f67941b81dcf93af62009, type: 3}
+  - {fileID: 1545334822019571839, guid: b64fd655f56274b4d9de702c2a0ee097, type: 3}
   block: {fileID: 3822408371223137451, guid: a1ea94b9316a4924aa48645d15155dbc, type: 3}
   GoThroughcount: 2
   pos: {fileID: 789106433}
@@ -1236,6 +1238,66 @@ PrefabInstance:
       propertyPath: trackBuilder
       value: 
       objectReference: {fileID: 789106433}
+    - target: {fileID: 4055079426417749795, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055079426417749795, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_ActionId
+      value: cd7eb78a-66ed-4bf9-affe-0475bb9ad756
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055079426417749795, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_ActionName
+      value: PlayerControls/Jump Slide[/Keyboard/upArrow,/Keyboard/downArrow]
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055079426417749795, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055079426417749795, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055079426417749795, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055079426417749795, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1927726031}
+    - target: {fileID: 4055079426417749795, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055079426417749795, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnJump
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055079426417749795, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerControl, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055079426417749795, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055079426417749799, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: m_StepOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4055079426417749819, guid: 52bb6c894384ce641b128b934bc18866,
         type: 3}
       propertyPath: m_Name
@@ -1251,6 +1313,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4055079426417749820, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: gravity
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4055079426417749820, guid: 52bb6c894384ce641b128b934bc18866,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 4305835602785304338}
     - target: {fileID: 4055079426417749820, guid: 52bb6c894384ce641b128b934bc18866,
         type: 3}
       propertyPath: scoreText
